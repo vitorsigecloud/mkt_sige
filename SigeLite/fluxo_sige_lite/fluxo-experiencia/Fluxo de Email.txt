@@ -1,8 +1,8 @@
 - Boas Vindas - Pronto
 - Recursos Chave - Pronto
 - Recursos Outros - Pronto
-- Suporte
-- Pesquisa de Satisfação
-- Gamefication (sua exp está prestes a acabar)
-- Comercial
-- Sua EXP acabou
+- Suporte - Pronto
+- Pesquisa de Satisfação - Pronto
+- Gamefication (sua exp está prestes a acabar) - Pronto
+- Comercial - Pronto
+- Sua EXP acabou - Pronto
