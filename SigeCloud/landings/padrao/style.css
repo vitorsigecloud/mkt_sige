@@ -147,11 +147,19 @@ a{
 }
 
 .color-sige-lite{
-    color: #8524a0;
+  color: #8524a0;
+}
+
+.color-sige-cloud{
+  color: #04aadc;
 }
 
 .bgcolor-sige-lite{
     background-color: #8524a0;
+}
+
+.bgcolor-sige-cloud{
+    background-color: #04aadc;
 }
 
 .color-w{
@@ -222,7 +230,7 @@ input:focus~label,
 input:valid~label {
     top: -20px;
     font-size: 14px;
-    color: #8524a0;
+    color: #04aadc;
 }
 
 
@@ -240,7 +248,7 @@ input:valid~label {
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #8524a0;
+    background: #04aadc;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
