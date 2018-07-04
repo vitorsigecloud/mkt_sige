@@ -17,7 +17,7 @@
 <body>
     <header id="home" class="header flex column flex-center justify-top">
         <div class="flex justify-start flex-start container w-100">
-            <a href="#home">
+            <a href="#home" target="_blank">
                 <img src="https://sigelite.com.br/img/logo.png" class="logo">
             </a>
         </div>
@@ -50,7 +50,7 @@
 							</strong>
 						</p>
 	            	</div>
-	            	<form id="form" action="" method="get" accept-charset="utf-8">
+	            	<form id="form" action="#" method="get" accept-charset="utf-8">
 	            		<div class="group">
 	            			<input type="text" name="nome" id="nome" required>
 	            			<span class="bar"></span>
@@ -61,8 +61,10 @@
 	            			<span class="bar"></span>
 	            			<label for="email">Email</label>
 	            		</div>
-
-	            		<button type="button" class="btn btn-form"><span>BAIXAR PLANILHA GRÁTIS AGORA</span></button>
+						
+						<a href="" target="_blank">
+	            			<button type="submit" class="btn btn-form"><span>BAIXAR PLANILHA GRÁTIS AGORA</span></button>
+	            		</a>
 	            	</form>
 	            </div>
 				
@@ -84,7 +86,7 @@
     				O Sige Lite é o primeiro passo para quem deseja melhorar sua gestão e aumentar seus resultados. Com ele é possível trabalhar com as funcionalidades essenciais para qualquer empresa, tanto online quanto offline, e o melhor de tudo, <br>DE GRAÇA!
     			</p>
     			
-    			<button type="button" class="btn btn-baixar-lite"><span>BAIXAR sige lite GRÁTIS</span></button>
+    			<button onmouseup="setTimeout('window.open(\'https://sigelite.com.br\',\'_blank\')', 500);" type="button" class="btn btn-baixar-lite"><span>BAIXAR sige lite GRÁTIS</span></button>
     		</div>
     	</div>
     </section>
@@ -92,19 +94,29 @@
     <footer class="footer flex flex-center column">
     	<div class="flex justify-around container w-100 wrap ptop-50 pbottom-50">
 	        <div class="flex-50 self-center">
-	            <a href="#">
+	            <a href="#" target="_blank">
 	                    <img src="https://sigelite.com.br/img/logo.png" id="logo-footer">
 	                </a>
 	        </div>
 	        <div class="flex flex-50 column" align="right">
 	        	<div class="flex justify-end">
-	        		<img src="img/icon-face-slite-color.png" alt="facebook.com/sigelite" class="mleft-20">
-	        		<img src="img/icon-insta-slite-color.png" alt="instagram.com/sigeliteoficial" class="mleft-20">
-	        		<img src="img/icon-youtube-slite-color.png" alt="youtube.com/sigelite" class="mleft-20">
+	        		<a href="https://www.facebook.com/sigelite/" target="_blank">
+	        			<img src="img/icon-face-slite-color.png" alt="facebook.com/sigelite" class="mleft-20">
+	        		</a>
+	        		<a href="https://www.instagram.com/sigeliteoficial/" target="_blank">
+	        			<img src="img/icon-insta-slite-color.png" alt="instagram.com/sigeliteoficial" class="mleft-20">
+	        		</a>
+	        		<a href="https://www.youtube.com/watch?v=hA3egaWofFM&list=PL9pC29avZmiB1wMQLKPfrlolWlD7i0TBz" target="_blank">
+	        			<img src="img/icon-youtube-slite-color.png" alt="youtube.com/sigelite" class="mleft-20">
+	        		</a>
 	        	</div>
 				<div>
-					<span class="size-23 color-w w-100 mtop-20 inline-block">www.sigelite.com.br</span>
-					<span class="size-23 color-w w-100  inline-block">suporte@sigelite.com.br</span>
+					<a href="https://sigelite.com.br" target="_blank">
+						<span class="size-23 color-w w-100 mtop-20 inline-block">www.sigelite.com.br</span>
+					</a>
+					<a href="mailto:suporte@sigecloud.com.br">
+						<span class="size-23 color-w w-100  inline-block">suporte@sigecloud.com.br</span>
+					</a>
 				</div>
 	        </div>
     	</div>
